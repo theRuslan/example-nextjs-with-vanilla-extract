@@ -24,6 +24,10 @@ export default function Home() {
           content="Example of Next.js with Vanilla-Extract used instead of default CSS modules."
         />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="canonical"
+          href="https://example-nextjs-with-vanilla-extract.vercel.app"
+        />
       </Head>
 
       <header>
