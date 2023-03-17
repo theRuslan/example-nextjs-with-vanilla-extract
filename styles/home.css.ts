@@ -59,6 +59,19 @@ globalStyle(
   }
 );
 
+globalStyle("em", {
+  fontWeight: "bold",
+});
+
+export const about = style({
+  lineHeight: 1.5,
+  fontSize: "1.5rem",
+  textAlign: "center",
+  backgroundColor: "#0070f3",
+  color: "black",
+  padding: "1rem",
+});
+
 export const description = style({
   margin: "4rem 0",
   lineHeight: 1.5,
