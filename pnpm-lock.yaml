@@ -11,8 +11,8 @@ dependencies:
     specifier: ^18.2.3
     version: 18.2.3
   '@vanilla-extract/css':
-    specifier: ^1.11.0
-    version: 1.11.0
+    specifier: ^1.11.1
+    version: 1.11.1
   '@vanilla-extract/next-plugin':
     specifier: ^2.1.2
     version: 2.1.2(@types/node@20.3.1)(next@13.4.0)(webpack@5.82.0)
@@ -821,14 +821,14 @@ packages:
       - supports-color
     dev: false
 
-  /@vanilla-extract/css@1.11.0:
-    resolution: {integrity: sha512-uohj+8cGWbnrVzTfrjlJeXqdGjH3d3TcscdQxKe3h5bb5QQXTpPSq+c+SeWADIGiZybzcW0CBvZV8jsy1ywY9w==}
+  /@vanilla-extract/css@1.11.1:
+    resolution: {integrity: sha512-iLalh4K4sXgkfzsiFUsiek4IY1/N4jtJKdr1ubpyszPE7W7G2v+DAl8KcmKkRA6vS7k5mFNW34e4fNki6T2cbQ==}
     dependencies:
       '@emotion/hash': 0.9.0
       '@vanilla-extract/private': 1.0.3
       ahocorasick: 1.0.2
       chalk: 4.1.2
-      css-what: 5.1.0
+      css-what: 6.1.0
       cssesc: 3.0.0
       csstype: 3.1.2
       deep-object-diff: 1.1.9
@@ -843,7 +843,7 @@ packages:
       '@babel/core': 7.21.8
       '@babel/plugin-syntax-typescript': 7.21.4(@babel/core@7.21.8)
       '@vanilla-extract/babel-plugin-debug-ids': 1.0.2
-      '@vanilla-extract/css': 1.11.0
+      '@vanilla-extract/css': 1.11.1
       esbuild: 0.17.6
       eval: 0.1.6
       find-up: 5.0.0
@@ -1317,8 +1317,8 @@ packages:
       which: 2.0.2
     dev: false
 
-  /css-what@5.1.0:
-    resolution: {integrity: sha512-arSMRWIIFY0hV8pIxZMEfmMI47Wj3R/aWpZDDxWYCPEiOMv6tfOrnpDtgxBYPEQD4V0Y/958+1TdC3iWTFcUPw==}
+  /css-what@6.1.0:
+    resolution: {integrity: sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==}
     engines: {node: '>= 6'}
     dev: false
 
