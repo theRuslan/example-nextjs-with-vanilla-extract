@@ -8,8 +8,8 @@ dependencies:
     specifier: ^18.2.14
     version: 18.2.14
   '@types/react-dom':
-    specifier: ^18.2.3
-    version: 18.2.3
+    specifier: ^18.2.6
+    version: 18.2.6
   '@vanilla-extract/css':
     specifier: ^1.11.1
     version: 1.11.1
@@ -733,8 +733,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: false
 
-  /@types/react-dom@18.2.3:
-    resolution: {integrity: sha512-hxXEXWxFJXbY0LMj/T69mznqOZJXNtQMqVxIiirVAZnnpeYiD4zt+lPsgcr/cfWg2VLsxZ1y26vigG03prYB+Q==}
+  /@types/react-dom@18.2.6:
+    resolution: {integrity: sha512-2et4PDvg6PVCyS7fuTc4gPoksV58bW0RwSxWKcPRcHZf0PRUGq03TKcD/rUHe3azfV6/5/biUBJw+HhCQjaP0A==}
     dependencies:
       '@types/react': 18.2.14
     dev: false
