@@ -18,8 +18,8 @@ dependencies:
     specifier: ^1.12.0
     version: 1.12.0
   '@vanilla-extract/next-plugin':
-    specifier: ^2.2.1
-    version: 2.2.1(@types/node@20.4.5)(next@13.4.12)(webpack@5.88.2)
+    specifier: ^2.2.2
+    version: 2.2.2(@types/node@20.4.5)(next@13.4.12)(webpack@5.88.2)
   eslint:
     specifier: ^8.46.0
     version: 8.46.0
@@ -1069,8 +1069,8 @@ packages:
       - terser
     dev: false
 
-  /@vanilla-extract/next-plugin@2.2.1(@types/node@20.4.5)(next@13.4.12)(webpack@5.88.2):
-    resolution: {integrity: sha512-43wkBf17IbGJfZpDODcp5HA8ZFdzpu+3ts3F6fenFzxuOUShRknAiMDkB2StXjX/QvFbJoNHALZidEnkZxsNQw==}
+  /@vanilla-extract/next-plugin@2.2.2(@types/node@20.4.5)(next@13.4.12)(webpack@5.88.2):
+    resolution: {integrity: sha512-IyIJMFJpwJgip/UwRmTL1Unkndt6U7MhklXXh4SuG9WAazGtN4AIx/u4zySbXErStoWA+fyNZal4Tsc7cuPMBQ==}
     peerDependencies:
       next: '>=12.1.7'
     dependencies:
