@@ -18,8 +18,8 @@ dependencies:
     specifier: ^1.13.0
     version: 1.13.0
   '@vanilla-extract/next-plugin':
-    specifier: ^2.2.2
-    version: 2.2.2(@types/node@20.5.1)(next@13.4.19)(webpack@5.88.2)
+    specifier: ^2.3.0
+    version: 2.3.0(@types/node@20.5.1)(next@13.4.19)(webpack@5.88.2)
   eslint:
     specifier: ^8.47.0
     version: 8.47.0
@@ -1052,12 +1052,12 @@ packages:
       - terser
     dev: false
 
-  /@vanilla-extract/next-plugin@2.2.2(@types/node@20.5.1)(next@13.4.19)(webpack@5.88.2):
-    resolution: {integrity: sha512-IyIJMFJpwJgip/UwRmTL1Unkndt6U7MhklXXh4SuG9WAazGtN4AIx/u4zySbXErStoWA+fyNZal4Tsc7cuPMBQ==}
+  /@vanilla-extract/next-plugin@2.3.0(@types/node@20.5.1)(next@13.4.19)(webpack@5.88.2):
+    resolution: {integrity: sha512-l7ZzcL1G9zuJTAhBbOy6NKW/FPDOhDzfUXPhFGSTN1sdtO7qBmGLtOGFZATAYboAuIWXhGgnrfkyNgQh2adXZw==}
     peerDependencies:
       next: '>=12.1.7'
     dependencies:
-      '@vanilla-extract/webpack-plugin': 2.2.0(@types/node@20.5.1)(webpack@5.88.2)
+      '@vanilla-extract/webpack-plugin': 2.3.0(@types/node@20.5.1)(webpack@5.88.2)
       browserslist: 4.21.10
       next: 13.4.19(@babel/core@7.22.10)(react-dom@18.2.0)(react@18.2.0)
     transitivePeerDependencies:
@@ -1076,8 +1076,8 @@ packages:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
     dev: false
 
-  /@vanilla-extract/webpack-plugin@2.2.0(@types/node@20.5.1)(webpack@5.88.2):
-    resolution: {integrity: sha512-EQrnT7gIki+Wm57eIRZRw6pi4M4VVnwiSp5OOcQF81XdZvoYXo51Ern7+dHKS+Xxli151BWTUsg/UZSpaAz29Q==}
+  /@vanilla-extract/webpack-plugin@2.3.0(@types/node@20.5.1)(webpack@5.88.2):
+    resolution: {integrity: sha512-c+oaozLGNu+dqLNattJ9nVmy6t2OZw6qEW0xJkPS4bRXlpMSNrPwkKB1Lpov2yd2/eDuxTFi760zTZygwFNBVA==}
     peerDependencies:
       webpack: ^4.30.0 || ^5.20.2
     dependencies:
