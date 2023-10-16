@@ -18,8 +18,8 @@ dependencies:
     specifier: ^1.13.0
     version: 1.13.0
   '@vanilla-extract/next-plugin':
-    specifier: ^2.3.0
-    version: 2.3.0(@types/node@20.6.0)(next@13.5.5)(webpack@5.89.0)
+    specifier: ^2.3.1
+    version: 2.3.1(@types/node@20.6.0)(next@13.5.5)(webpack@5.89.0)
   eslint:
     specifier: ^8.49.0
     version: 8.49.0
@@ -1115,13 +1115,12 @@ packages:
       - terser
     dev: false
 
-  /@vanilla-extract/next-plugin@2.3.0(@types/node@20.6.0)(next@13.5.5)(webpack@5.89.0):
-    resolution: {integrity: sha512-l7ZzcL1G9zuJTAhBbOy6NKW/FPDOhDzfUXPhFGSTN1sdtO7qBmGLtOGFZATAYboAuIWXhGgnrfkyNgQh2adXZw==}
+  /@vanilla-extract/next-plugin@2.3.1(@types/node@20.6.0)(next@13.5.5)(webpack@5.89.0):
+    resolution: {integrity: sha512-aoDTnCY3gJXjytoxlA7Xk4A/BDxdzUBeZhHWypauKJ06XJKlV/odjXt8K5FhCrMy8o+nqnCpjOD6KXcg6JmIdw==}
     peerDependencies:
       next: '>=12.1.7'
     dependencies:
-      '@vanilla-extract/webpack-plugin': 2.3.0(@types/node@20.6.0)(webpack@5.89.0)
-      browserslist: 4.21.10
+      '@vanilla-extract/webpack-plugin': 2.3.1(@types/node@20.6.0)(webpack@5.89.0)
       next: 13.5.5(@babel/core@7.22.10)(react-dom@18.2.0)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/node'
@@ -1139,8 +1138,8 @@ packages:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
     dev: false
 
-  /@vanilla-extract/webpack-plugin@2.3.0(@types/node@20.6.0)(webpack@5.89.0):
-    resolution: {integrity: sha512-c+oaozLGNu+dqLNattJ9nVmy6t2OZw6qEW0xJkPS4bRXlpMSNrPwkKB1Lpov2yd2/eDuxTFi760zTZygwFNBVA==}
+  /@vanilla-extract/webpack-plugin@2.3.1(@types/node@20.6.0)(webpack@5.89.0):
+    resolution: {integrity: sha512-S767iP+S67Uh+BsTe+u60BMbtRqZAxzjK7gYd6a+1hcbMKznYxdQMeP2qs9wr+NhRqZFrNxewo3/ztMnN85TOg==}
     peerDependencies:
       webpack: ^4.30.0 || ^5.20.2
     dependencies:
@@ -3033,15 +3032,6 @@ packages:
       pathe: 1.1.1
     dev: false
 
-  /postcss@8.4.28:
-    resolution: {integrity: sha512-Z7V5j0cq8oEKyejIKfpD8b4eBy9cwW2JWPk0+fB1HOAMsfHbnAXLLS+PfVWlzMSLQaWttKDt607I0XHmpE67Vw==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.6
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
-    dev: false
-
   /postcss@8.4.31:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
@@ -3602,7 +3592,7 @@ packages:
     dependencies:
       '@types/node': 20.6.0
       esbuild: 0.18.20
-      postcss: 8.4.28
+      postcss: 8.4.31
       rollup: 3.28.0
     optionalDependencies:
       fsevents: 2.3.2
