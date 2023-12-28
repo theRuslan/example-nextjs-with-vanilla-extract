@@ -14,7 +14,7 @@
     "@types/react-dom": "^18.2.18",
     "@vanilla-extract/css": "^1.14.0",
     "@vanilla-extract/next-plugin": "^2.3.2",
-    "eslint": "^8.55.0",
+    "eslint": "^8.56.0",
     "eslint-config-next": "^14.0.4",
     "next": "^14.0.4",
     "react": "^18.2.0",
