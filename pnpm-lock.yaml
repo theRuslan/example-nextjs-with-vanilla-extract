@@ -15,8 +15,8 @@ dependencies:
     specifier: ^18.2.18
     version: 18.2.18
   '@vanilla-extract/css':
-    specifier: ^1.14.0
-    version: 1.14.0
+    specifier: ^1.14.1
+    version: 1.14.1
   '@vanilla-extract/next-plugin':
     specifier: ^2.3.3
     version: 2.3.3(@types/node@20.11.10)(next@14.1.0)(webpack@5.90.0)
@@ -1154,8 +1154,8 @@ packages:
       - supports-color
     dev: false
 
-  /@vanilla-extract/css@1.14.0:
-    resolution: {integrity: sha512-rYfm7JciWZ8PFzBM/HDiE2GLnKI3xJ6/vdmVJ5BSgcCZ5CxRlM9Cjqclni9lGzF3eMOijnUhCd/KV8TOzyzbMA==}
+  /@vanilla-extract/css@1.14.1:
+    resolution: {integrity: sha512-V4JUuHNjZgl64NGfkDJePqizkNgiSpphODtZEs4cCPuxLAzwOUJYATGpejwimJr1n529kq4DEKWexW22LMBokw==}
     dependencies:
       '@emotion/hash': 0.9.1
       '@vanilla-extract/private': 1.0.3
@@ -1176,7 +1176,7 @@ packages:
       '@babel/core': 7.22.10
       '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.22.10)
       '@vanilla-extract/babel-plugin-debug-ids': 1.0.4
-      '@vanilla-extract/css': 1.14.0
+      '@vanilla-extract/css': 1.14.1
       esbuild: 0.17.6
       eval: 0.1.8
       find-up: 5.0.0
