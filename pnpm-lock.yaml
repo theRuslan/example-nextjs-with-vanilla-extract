@@ -16,7 +16,7 @@ dependencies:
     version: 18.3.0
   '@vanilla-extract/css':
     specifier: ^1.14.1
-    version: 1.15.0
+    version: 1.15.1
   '@vanilla-extract/next-plugin':
     specifier: ^2.3.6
     version: 2.4.0(@types/node@20.12.7)(next@14.2.3)(webpack@5.91.0)
@@ -1175,20 +1175,22 @@ packages:
       - supports-color
     dev: false
 
-  /@vanilla-extract/css@1.15.0:
-    resolution: {integrity: sha512-B21dRQTiRJ9xMlW3RGOYMfGo11S2Bgcke6YrEJxGBovJFMsMwaex2mQC4XnVvreWMlYef+Na+zBUFDw7tfKMcw==}
+  /@vanilla-extract/css@1.15.1:
+    resolution: {integrity: sha512-puAfTKAUtsMr2+D+grQNjU5umsdw9zdVgQflUlbzS/tGORaAHdgaYz7jfKPmz1c4ZcpJ6uFNOiI50NDOAzzhyg==}
     dependencies:
       '@emotion/hash': 0.9.1
       '@vanilla-extract/private': 1.0.4
-      chalk: 4.1.2
       css-what: 6.1.0
       cssesc: 3.0.0
       csstype: 3.1.3
+      dedent: 1.5.3
       deep-object-diff: 1.1.9
       deepmerge: 4.3.1
       media-query-parser: 2.0.2
       modern-ahocorasick: 1.0.1
-      outdent: 0.8.0
+      picocolors: 1.0.0
+    transitivePeerDependencies:
+      - babel-plugin-macros
     dev: false
 
   /@vanilla-extract/integration@7.1.2(@types/node@20.12.7):
@@ -1197,7 +1199,7 @@ packages:
       '@babel/core': 7.24.4
       '@babel/plugin-syntax-typescript': 7.24.1(@babel/core@7.24.4)
       '@vanilla-extract/babel-plugin-debug-ids': 1.0.5
-      '@vanilla-extract/css': 1.15.0
+      '@vanilla-extract/css': 1.15.1
       esbuild: 0.19.12
       eval: 0.1.8
       find-up: 5.0.0
@@ -1209,6 +1211,7 @@ packages:
       vite-node: 1.4.0(@types/node@20.12.7)
     transitivePeerDependencies:
       - '@types/node'
+      - babel-plugin-macros
       - less
       - lightningcss
       - sass
@@ -1227,6 +1230,7 @@ packages:
       next: 14.2.3(@babel/core@7.24.4)(react-dom@18.3.1)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/node'
+      - babel-plugin-macros
       - less
       - lightningcss
       - sass
@@ -1253,6 +1257,7 @@ packages:
       webpack: 5.91.0
     transitivePeerDependencies:
       - '@types/node'
+      - babel-plugin-macros
       - less
       - lightningcss
       - sass
@@ -1788,6 +1793,15 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.2
+    dev: false
+
+  /dedent@1.5.3:
+    resolution: {integrity: sha512-NHQtfOOW68WD8lgypbLA5oT+Bt0xXJhiYvoR6SmmNXZfpzOGXwdKWmcwG8N7PwVVWV3eF/68nmD9BaJSsTBhyQ==}
+    peerDependencies:
+      babel-plugin-macros: ^3.1.0
+    peerDependenciesMeta:
+      babel-plugin-macros:
+        optional: true
     dev: false
 
   /deep-is@0.1.4:
