@@ -2,6 +2,10 @@
   "name": "example-nextjs-with-vanilla-extract",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "20.x"
+  },
+  "packageManager": "pnpm@9.4.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,17 +13,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "^20.11.19",
-    "@types/react": "^18.2.57",
-    "@types/react-dom": "^18.2.19",
-    "@vanilla-extract/css": "^1.14.1",
-    "@vanilla-extract/next-plugin": "^2.3.6",
-    "eslint": "^9.0.0",
-    "eslint-config-next": "^14.1.0",
-    "next": "^14.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "typescript": "^5.3.3",
-    "webpack": "^5.90.3"
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vanilla-extract/css": "^1.15.3",
+    "@vanilla-extract/next-plugin": "^2.4.3",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.4",
+    "next": "^14.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.3",
+    "webpack": "^5.92.1"
   }
 }
