@@ -22,7 +22,7 @@ importers:
         version: 1.15.4
       '@vanilla-extract/next-plugin':
         specifier: ^2.4.3
-        version: 2.4.4(@types/node@20.16.1)(next@14.2.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.31.2)(webpack@5.93.0)
+        version: 2.4.5(@types/node@20.16.1)(next@14.2.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.31.2)(webpack@5.93.0)
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -709,19 +709,22 @@ packages:
   '@vanilla-extract/css@1.15.4':
     resolution: {integrity: sha512-d+VS4Xmtec3Y4KTXfp8r8za46MzhIjjapU4K1zS8zS+YRnFYQxa+upnw9XDDUWz4bSOZWs8Gep4s5SktcxfEBA==}
 
-  '@vanilla-extract/integration@7.1.8':
-    resolution: {integrity: sha512-qUZaD7SjbjIN6+rGS5fuQIfBtcdE3P8y9D7TEefyELa0oxXc/fHDaRWQVK5fzYadpILOsnbrdZX24cJlf7F0Ew==}
+  '@vanilla-extract/css@1.15.5':
+    resolution: {integrity: sha512-N1nQebRWnXvlcmu9fXKVUs145EVwmWtMD95bpiEKtvehHDpUhmO1l2bauS7FGYKbi3dU1IurJbGpQhBclTr1ng==}
 
-  '@vanilla-extract/next-plugin@2.4.4':
-    resolution: {integrity: sha512-rOg3R8z4twJf63huSVWO2VPVeatgAOGGrihM7bB4eGc8BZtIUURPXvtGRZwxtrAuyCkd8A+z3dME+dQMT8Lllw==}
+  '@vanilla-extract/integration@7.1.9':
+    resolution: {integrity: sha512-bkikYnUdEiUoUZGX3tErmkpU43M4Q0McZcSUHutP/pQCeuDB29t8brLOLzdkahwD+RteX2/R3ukmIm3lAYzUnA==}
+
+  '@vanilla-extract/next-plugin@2.4.5':
+    resolution: {integrity: sha512-moOwqL+pSvGHmZaENrDNtqdP1Xv1wPOoRIOEb3qWuJ6Yq+pgVvD1In7ib54LFB7wDCEIFnqrDZ9z3PYhjo21fQ==}
     peerDependencies:
       next: '>=12.1.7'
 
   '@vanilla-extract/private@1.0.6':
     resolution: {integrity: sha512-ytsG/JLweEjw7DBuZ/0JCN4WAQgM9erfSTdS1NQY778hFQSZ6cfCDEZZ0sgVm4k54uNz6ImKB33AYvSR//fjxw==}
 
-  '@vanilla-extract/webpack-plugin@2.3.12':
-    resolution: {integrity: sha512-tmAg59wm/+63NFh/dn/34h69r49szrpi7Py2nVsLIBbHZQRs/GWKPXUo5Cebod520KKP+zb1494fb6bjwN2vrw==}
+  '@vanilla-extract/webpack-plugin@2.3.13':
+    resolution: {integrity: sha512-9T3X87OFZYCfYqXVpzwycVIo2Bf3c+5wxFzA2KT0i4clc9dxDNL9ru2V6SyPJAul6BsQfjn0G9C4qva8hOEv8Q==}
     peerDependencies:
       webpack: ^4.30.0 || ^5.20.2
 
@@ -1074,8 +1077,8 @@ packages:
   electron-to-chromium@1.4.825:
     resolution: {integrity: sha512-OCcF+LwdgFGcsYPYC5keEEFC2XT0gBhrYbeGzHCx7i9qRFbzO/AqTmc/C/1xNhJj+JA7rzlN7mpBuStshh96Cg==}
 
-  electron-to-chromium@1.5.11:
-    resolution: {integrity: sha512-R1CccCDYqndR25CaXFd6hp/u9RaaMcftMkphmvuepXr5b1vfLkRml6aWVeBhXJ7rbevHkKEMJtz8XqPf7ffmew==}
+  electron-to-chromium@1.5.12:
+    resolution: {integrity: sha512-tIhPkdlEoCL1Y+PToq3zRNehUaKp3wBX/sr7aclAWdIWjvqAe/Im/H0SiCM4c1Q8BLPHCdoJTol+ZblflydehA==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2162,8 +2165,8 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
-  vite@5.4.1:
-    resolution: {integrity: sha512-1oE6yuNXssjrZdblI9AfBbHCC41nnyoVoEZxQnID6yvQZAFBzxxkqoFLtHUMkYunL8hwOLEjgTuxpkRxvba3kA==}
+  vite@5.4.2:
+    resolution: {integrity: sha512-dDrQTRHp5C1fTFzcSaMxjk6vdpKvT+2/mIdE07Gw2ykehT49O0z/VHS3zZ8iV/Gh8BJJKHWOe5RjaNrW5xf/GA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -2792,19 +2795,36 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@vanilla-extract/integration@7.1.8(@types/node@20.16.1)(terser@5.31.2)':
+  '@vanilla-extract/css@1.15.5':
+    dependencies:
+      '@emotion/hash': 0.9.2
+      '@vanilla-extract/private': 1.0.6
+      css-what: 6.1.0
+      cssesc: 3.0.0
+      csstype: 3.1.3
+      dedent: 1.5.3
+      deep-object-diff: 1.1.9
+      deepmerge: 4.3.1
+      lru-cache: 10.4.3
+      media-query-parser: 2.0.2
+      modern-ahocorasick: 1.0.1
+      picocolors: 1.0.1
+    transitivePeerDependencies:
+      - babel-plugin-macros
+
+  '@vanilla-extract/integration@7.1.9(@types/node@20.16.1)(terser@5.31.2)':
     dependencies:
       '@babel/core': 7.25.2
       '@babel/plugin-syntax-typescript': 7.24.7(@babel/core@7.25.2)
       '@vanilla-extract/babel-plugin-debug-ids': 1.0.6
-      '@vanilla-extract/css': 1.15.4
+      '@vanilla-extract/css': 1.15.5
       dedent: 1.5.3
       esbuild: 0.23.1
       eval: 0.1.8
       find-up: 5.0.0
       javascript-stringify: 2.1.0
       mlly: 1.7.1
-      vite: 5.4.1(@types/node@20.16.1)(terser@5.31.2)
+      vite: 5.4.2(@types/node@20.16.1)(terser@5.31.2)
       vite-node: 1.6.0(@types/node@20.16.1)(terser@5.31.2)
     transitivePeerDependencies:
       - '@types/node'
@@ -2818,9 +2838,9 @@ snapshots:
       - supports-color
       - terser
 
-  '@vanilla-extract/next-plugin@2.4.4(@types/node@20.16.1)(next@14.2.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.31.2)(webpack@5.93.0)':
+  '@vanilla-extract/next-plugin@2.4.5(@types/node@20.16.1)(next@14.2.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.31.2)(webpack@5.93.0)':
     dependencies:
-      '@vanilla-extract/webpack-plugin': 2.3.12(@types/node@20.16.1)(terser@5.31.2)(webpack@5.93.0)
+      '@vanilla-extract/webpack-plugin': 2.3.13(@types/node@20.16.1)(terser@5.31.2)(webpack@5.93.0)
       next: 14.2.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:
       - '@types/node'
@@ -2837,9 +2857,9 @@ snapshots:
 
   '@vanilla-extract/private@1.0.6': {}
 
-  '@vanilla-extract/webpack-plugin@2.3.12(@types/node@20.16.1)(terser@5.31.2)(webpack@5.93.0)':
+  '@vanilla-extract/webpack-plugin@2.3.13(@types/node@20.16.1)(terser@5.31.2)(webpack@5.93.0)':
     dependencies:
-      '@vanilla-extract/integration': 7.1.8(@types/node@20.16.1)(terser@5.31.2)
+      '@vanilla-extract/integration': 7.1.9(@types/node@20.16.1)(terser@5.31.2)
       debug: 4.3.6
       loader-utils: 2.0.4
       picocolors: 1.0.1
@@ -3090,7 +3110,7 @@ snapshots:
   browserslist@4.23.3:
     dependencies:
       caniuse-lite: 1.0.30001651
-      electron-to-chromium: 1.5.11
+      electron-to-chromium: 1.5.12
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
 
@@ -3252,7 +3272,7 @@ snapshots:
 
   electron-to-chromium@1.4.825: {}
 
-  electron-to-chromium@1.5.11: {}
+  electron-to-chromium@1.5.12: {}
 
   emoji-regex@8.0.0: {}
 
@@ -4587,7 +4607,7 @@ snapshots:
       debug: 4.3.6
       pathe: 1.1.2
       picocolors: 1.0.1
-      vite: 5.4.1(@types/node@20.16.1)(terser@5.31.2)
+      vite: 5.4.2(@types/node@20.16.1)(terser@5.31.2)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4599,7 +4619,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.4.1(@types/node@20.16.1)(terser@5.31.2):
+  vite@5.4.2(@types/node@20.16.1)(terser@5.31.2):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.41
