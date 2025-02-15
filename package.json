@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   },
   "packageManager": "pnpm@9.15.5",
   "scripts": {
@@ -13,7 +13,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "^20.14.9",
+    "@types/node": "^22.0.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vanilla-extract/css": "^1.15.3",
