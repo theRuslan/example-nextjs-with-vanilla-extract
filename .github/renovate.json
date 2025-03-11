@@ -13,5 +13,9 @@
   "labels": [
     "renovate",
     "dependencies"
-  ]
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["every week"]
+  }
 }
