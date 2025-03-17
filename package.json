@@ -5,7 +5,7 @@
   "engines": {
     "node": "22.x"
   },
-  "packageManager": "pnpm@10.6.2",
+  "packageManager": "pnpm@10.6.4",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
