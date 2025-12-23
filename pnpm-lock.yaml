@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@types/node':
         specifier: ^22.0.0
-        version: 22.19.0
+        version: 22.19.3
       '@types/react':
         specifier: ^19.0.0
         version: 19.2.2
@@ -606,8 +606,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.19.0':
-    resolution: {integrity: sha512-xpr/lmLPQEj+TUnHmR+Ab91/glhJvsqcjB+yY0Ix9GO70H6Lb4FHH5GeqdOE5btAx7eIMwuHkp4H2MSkLcqWbA==}
+  '@types/node@22.19.3':
+    resolution: {integrity: sha512-1N9SBnWYOJTrNZCdh/yJE+t910Y128BoyY+zBLWhL3r0TYzlTmFdXrPwHL9DyFZmlEXNQQolTZh3KHV31QDhyA==}
 
   '@types/react-dom@19.2.2':
     resolution: {integrity: sha512-9KQPoO6mZCi7jcIStSnlOWn2nEF3mNmyr3rIAsGnAbQKYbRLyqmeSc39EVgtxXVia+LMT8j3knZLAZAh+xLmrw==}
@@ -2657,7 +2657,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.19.0':
+  '@types/node@22.19.3':
     dependencies:
       undici-types: 6.21.0
 
@@ -3578,7 +3578,7 @@ snapshots:
 
   eval@0.1.8:
     dependencies:
-      '@types/node': 22.19.0
+      '@types/node': 22.19.3
       require-like: 0.1.2
 
   events@3.3.0: {}
@@ -3875,7 +3875,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.19.0
+      '@types/node': 22.19.3
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
