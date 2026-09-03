@@ -23,7 +23,7 @@
     "next": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "typescript": "^5.5.3",
+    "typescript": "^7.0.0",
     "webpack": "^5.92.1"
   }
 }
